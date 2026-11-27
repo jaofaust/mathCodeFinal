@@ -1,0 +1,57 @@
+MathCode — Aventura de Plataforma & Matemática (HTML)
+
+Como jogar: dê dois cliques em index.html (abre no navegador).
+Importante: mantenha a pasta "img" junto do index.html (ela tem a arte da Loja do Raposo).
+Não precisa instalar nada. (A fonte Fredoka precisa de internet; sem ela o jogo usa uma fonte padrão.)
+
+Controles:
+  Mover: A/D ou setas
+  Pular: Espaço, W ou seta para cima
+  Giro: Shift ou X
+  Pausar / Menu: P ou Esc (ou botão "Menu" no canto superior direito)
+  Som (Ligar/Desligar e Volumes): botão 🔊 no topo ou dentro do Menu de Pausa
+
+Seu progresso (moedas, roupinhas, fase, estrelas e volumes) fica salvo no navegador.
+
+Inimigos:
+  Planta Mordedora: fica parada no chão e morde quando você chega perto (-1 vida).
+  Dá para vencê-la pulando em cima dela ou usando o giro (+3 moedas).
+  Dica: pule assim que ela recuar a cabeça para trás, antes da mordida!
+
+Tutorial "Aprender jogando":
+  Na primeira vez, o botão principal já abre o tutorial. Depois ele fica no menu como "Tutorial".
+  São 8 lições curtas dentro de uma fase de treino: andar, pular, espinhos, caixas, giro,
+  Planta Mordedora, pedra das contas e um teste final com bandeira.
+  - Uma ação por vez: cada lição libera UM controle novo, só aparece no lugar onde a ação é usada,
+    e os controles ainda não ensinados ficam esmaecidos na barra de teclas.
+  - Tentativa segura: no treino ninguém perde vida. Cair, tocar em espinhos, levar mordida ou errar a conta
+    só devolve o jogador para tentar de novo, com uma dica. Depois de 3 erros aparece uma ajuda extra
+    (e, na pedra das contas, o bloco certo brilha).
+  - Retorno perceptível: ao aprender, o cartão fica verde, o portão se abre, toca um som baixinho,
+    sai confete e a lição é marcada. Ao final há um resumo e um bônus único de 30 moedas.
+  O botão "Pular tutorial" e o botão de som ficam no cartão do treinador.
+
+Pyrito (o passarinho companheiro):
+  Agora usa a folha de sprites roxa. Voa batendo asas quando o Pip está parado ou andando devagar
+  e vira o "gato-pássaro" planando quando o Pip corre ou cai rápido.
+
+Mundos (cenários em camadas com paralaxe, todos no mesmo estilo):
+  1 Vale dos Cogumelos · 2 Caverna de Cristais · 3 Floresta Enluarada · 4 Dunas Douradas
+  5 Montanha Gelada · 6 Galáxia Neon · 7 Vulcão Rúnico (Castelo do Chefe na fase 22)
+  Cada mundo tem céu, camadas que se movem em velocidades diferentes, partículas de ambiente
+  (vagalumes, faíscas, neve, brasas, estrelas) e detalhes no chão. O tutorial acontece no Vale.
+
+Fundos animados:
+  Os cenários se mexem mesmo com o jogo parado (inclusive no menu): nuvens e névoa à deriva, árvores,
+  flores e cipós balançando, cogumelos "respirando", cristais, lava e runas pulsando, aurora no gelo,
+  estrela cadente na galáxia, raios de sol no deserto, e bichinhos passando (borboletas, pássaros, planta rolante).
+
+Mapa de Fases:
+  Menu > "Mapa de Fases". São 22 fases em 7 mundos (3 por mundo), de baixo para cima:
+  Vale dos Cogumelos, Caverna de Cristais, Floresta Enluarada, Dunas Douradas, Montanha Gelada,
+  Galáxia Neon e Vulcão Rúnico, terminando no Castelo do Chefe (fase 22).
+  - A fase atual é o botão laranja pulsante; as seguintes ficam com cadeado até você vencer a anterior.
+  - Cada fase concluída guarda de 1 a 3 estrelas: 3 se terminar sem perder vida, 2 se perder até 1 vida,
+    1 nas demais. Dá para rejogar qualquer fase concluída para melhorar as estrelas (nunca diminuem).
+  - Ao vencer uma fase, o Pip caminha pelo mapa até a próxima. Role com a roda do mouse, arraste ou use o dedo.
+  - Esc ou "Voltar" fecham o mapa. Progresso de quem já jogava é mantido (fases antigas contam com 1 estrela).
